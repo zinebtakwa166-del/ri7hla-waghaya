@@ -1,0 +1,35 @@
+{
+  "schools": [
+    {
+      "id": "s1",
+      "name": "مدرسة الفضل"
+    }
+  ],
+  "drivers": [
+    {
+      "id": "d1",
+      "name": "سعيد بن صالح",
+      "license": "A-12345",
+      "validUntil": "2026-06-01"
+    }
+  ],
+  "buses": [
+    {
+      "id": "b1",
+      "plate": "1234-أ-56",
+      "vin": "WVWZZZ1JZXW000001",
+      "capacity": 48
+    }
+  ],
+  "trips": [
+    {
+      "id": "t1",
+      "title": "رحلة المتحف الوطني",
+      "date": "2025-12-15",
+      "route": "مدرسة الفضل → المتحف → الحديقة",
+      "students": 40,
+      "busId": "b1",
+      "driverId": "d1"
+    }
+  ]
+}
