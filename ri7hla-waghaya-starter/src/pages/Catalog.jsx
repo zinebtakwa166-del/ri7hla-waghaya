@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 
 export default function Catalog() {
@@ -42,3 +41,7 @@ export default function Catalog() {
     </div>
   );
 }
+
+
+ 
+    
