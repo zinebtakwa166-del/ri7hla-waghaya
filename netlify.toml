@@ -1,0 +1,13 @@
+# ملف إعدادات Netlify على مستوى الجذر
+[build]
+  base = "ri7hla-waghaya-starter"  # هذا هو المجلد الفرعي لمشروع Vite
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
