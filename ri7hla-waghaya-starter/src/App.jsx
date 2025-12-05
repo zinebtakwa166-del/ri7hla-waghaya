@@ -13,20 +13,6 @@ const Nav = () => (
   </nav>
 );
 
-export default function App() {
-  return (
-    <BrowserRouter>
-      <div style={{ padding: '24px', fontFamily: 'system-ui' }}>
-        <h1>منصة رحلة وغاية</h1>
-        <Nav />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/catalog" element={<Catalog />} />
-          <Route path="/create" element={<CreateTrip />} />
-        </Routes>
-      </div>
-    </BrowserRouter>
-  );
-}
+
 
 
