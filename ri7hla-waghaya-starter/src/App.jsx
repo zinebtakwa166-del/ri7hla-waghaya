@@ -1,4 +1,4 @@
-// ri7hla-waghaya-starter/src/App.jsx
+// src/App.jsx
 import React from 'react';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home.jsx';
@@ -12,6 +12,23 @@ const Nav = () => (
     <Link to="/create">إنشاء رحلة</Link>
   </nav>
 );
+
+export default function App() {
+  return (
+    <BrowserRouter>
+      <div style={{ padding: '24px', fontFamily: 'system-ui' }}>
+        <h1>منصة رحلة وغاية</h1>
+        <Nav />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/catalog" element={<Catalog />} />
+          <Route path="/create" element={<CreateTrip />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
+  );
+}
+
 
 
 
