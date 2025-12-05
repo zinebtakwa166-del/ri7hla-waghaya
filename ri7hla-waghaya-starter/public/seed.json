@@ -1,1 +1,25 @@
-{ "ok": true }
+{
+  "schools": [
+    { "id": "sch-001", "name": "مدرسة النور الابتدائية" },
+    { "id": "sch-002", "name": "ثانوية الأمل" }
+  ],
+  "drivers": [
+    { "id": "drv-01", "name": "أحمد منصور", "license": "B-12345", "expires": "2026-12-31" },
+    { "id": "drv-02", "name": "منى خالد", "license": "B-67890", "expires": "2025-07-15" }
+  ],
+  "fleet": [
+    { "id": "bus-10", "plate": "123-تونس-456", "seats": 48, "vin": "WVWZZZ1JZXW000001" },
+    { "id": "bus-11", "plate": "789-تونس-012", "seats": 32, "vin": "WVWZZZ1JZXW000002" }
+  ],
+  "trips": [
+    {
+      "id": "t-100",
+      "title": "رحلة علمية إلى المتحف",
+      "date": "2025-12-20",
+      "schoolId": "sch-001",
+      "busId": "bus-10",
+      "driverId": "drv-01",
+      "students": 40
+    }
+  ]
+}
