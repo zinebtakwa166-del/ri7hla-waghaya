@@ -1,3 +1,4 @@
+import AdminDashboard from './pages/AdminDashboard.jsx';
 // src/App.jsx
 import React from 'react';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
